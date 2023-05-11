@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BilibiliHistory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="import_from_file">从文件导入</string>
+    <string name="output_from_database">从软件导出</string>
+    <string name="refesh_webView">刷新页面与记录</string>
+</resources>

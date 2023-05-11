@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="cn">
+    <head>
+        <meta charset="UTF-8">
+        <title>BiliBili历史记录</title>
+        <style type="text/css">
+        .ul{
+             width: 0;
+            height: 0;
+        }
+        .li{
+            width: 0;
+            height: 0;
+        }
+        a{
+            color: black;
+        }
+        #app{
+            width: 1200px;
+            position: relative;
+            margin: auto;
+        }
+        .history-list{
+            padding: 0px;
+        }
+        .history-record{
+            height: 200px;
+            width: 900px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 6px;
+
+        }
+        .lastPlay-time{
+            flex: 2;
+        }
+        .lastPlay-t{
+            font-size: 20px;
+        }
+        .history-info{
+            flex: 8;
+            display: flex;
+        }
+        .cover{
+            max-width: 100%;
+            max-height: 190px;
+            flex: 3;
+        }
+        .info{
+            flex: 7;
+        }
+        .title{
+            margin-top: 10px;
+        }
+        .video-link{
+            font-size: 25px;
+        }
+        .introduction{
+        }
+        .introduce{
+            font-size: 10px;
+        }
+        .up{
+            margin-top: 10px;
+        }
+        .head{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .up-head{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .up-id{
+            font-size: 10px;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div id="app">
+            <div class="list-contain">
+
+                <ul class="history-list">
+
+                    <li class="history-record">
+
+                        <div class="lastPlay-time">
+                            <span class="lastPlay-t">最后一次播放时间：<br>11:19</span>
+                        </div>
+
+                        <div class="history-info">
+
+                            <div class="cover">
+                                <a href="https://www.bilibili.com/video/BV1wG4y1C7Y2" target="_blank">
+                                    <img class="cover" src="https://z3.ax1x.com/2021/08/02/fSTu3d.jpg" alt="例封面图">
+                                </a>
+                            </div>
+
+                            <div class="info">
+
+                                <div class="title">
+                                    <a href="https://www.bilibili.com/video/BV1wG4y1C7Y2" target="_blank">
+                                    <span class="video-link">你是懂督战员的 你这奶有问题啊 太冷了冻成奶砖了</span>
+                                    </a>
+                                </div>
+
+                                <div class="introduction">
+                                    <span class="introduce">你这奶有问题啊 太冷了冻成奶砖了<br>经典奶人放成冰墙，禁止后退</span>
+                                </div>
+
+                                <div class="up">
+                                    <div class="head">
+                                        <a href="https://space.bilibili.com/18793501" target="_blank">
+                                        <img class="up-head" src="https://z3.ax1x.com/2021/08/02/fSTu3d.jpg" alt="up猪头像">
+                                        </a>
+                                    </div>
+                                    <a href="https://space.bilibili.com/18793501" target="_blank">
+                                    <span class="up-id">IMito-n</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </body>
+</html>
